@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+    
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #F4ABC4;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #333456 !important;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 24px;
+  background: #595B83;
+  font-weight: 700;
+  height: 64px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
+  text-shadow: 5px 4px 5px rgba(0,0,0,0.5);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  padding: 50px 100px 20px;
+}
+
+.content {
+  position: relative;
+  padding-top: 10px;
+}
+
+.content h1{
+  width: 500px;
+  font-size: 64px;
+}
+
+.content h1>sup {
+  position: absolute;
+  font-size: 24px;
+}
+
+.content .role {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.content .role .role-box {
+  border-radius: 25px;
+  background-color: #060930;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+}
+
+.content .introduce {
+  width: 600px;
+  font-size: 14px;
+}
+
+.content .introduce p {
+  margin: 5px 0;
+}
+
+.content .sosmed {
+  display: flex;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.content .sosmed a {
+  margin: 0 10px 20px 0;
+}
+
+.content a.get-in-touch{
+  background-color: #060930;
+  border: none;
+  font-size: 14px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #595B83;
+  padding: 10px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 420px) {
+  .container {
+    padding: 25px 30px 20px;
+  }
+
+  .content h1 {
+    width: 260px;
+    font-size: 36px;
+  }
+
+  .content h1>sup {
+    font-size: 14px;
+  }
+
+  .content .role .role-box {
+    font-size: 12px;
+  }
+
+  .content .introduce {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .content .sosmed {
+    font-size: 24px;
+  }
+}
